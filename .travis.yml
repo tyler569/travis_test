@@ -1,19 +1,15 @@
 
 language: cpp
-
 dist: xenial
+os: linux
 
-os:
-- linux
-
-script:
-- echo $GLOBAL $M1 $M2
+script: echo $GLOBAL $M1 $M2
 
 env:
   - M1=one
   - M1=two
   - M2=one
   - M2=two
-  global:
+  - global:
     - GLOBAL=global
 
