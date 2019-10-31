@@ -9,6 +9,7 @@ env:
   matrix:
   - M1=one
   - M1=two
+  matrix:
   - M2=one
   - M2=two
   global:
