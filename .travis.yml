@@ -6,10 +6,11 @@ os: linux
 script: echo $GLOBAL $M1 $M2
 
 env:
+  matrix:
   - M1=one
   - M1=two
   - M2=one
   - M2=two
-  - global:
-    - GLOBAL=global
+  global:
+  - GLOBAL=global
 
